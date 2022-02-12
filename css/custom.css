@@ -1,0 +1,72 @@
+.hide{
+    display: none !important;
+}
+.menu-right a:hover{
+    border-bottom: 2px solid #fff;
+}
+.menu-right li:not(.current) .dropdown .dropdown_inner a,
+.menu-right li:not(.current) .dropdown2 .dropdown_inner a
+{
+    color: #000;
+}
+.menu-right .dropdown_inner
+{
+    display: none;
+}
+.menu-right .dropdown .container,
+.menu-right .dropdown2 .container
+{
+    position: absolute;
+    padding-left: 0;
+    padding-top: 10px;
+    margin: 0 0 -5px;
+    max-width: 250px;
+}
+.menu-right .dropdown .dropdown_inner,
+.menu-right .dropdown2 .dropdown_inner
+{
+    background: #fff;
+    padding: 5px;
+}
+.menu-right .dropdown .dropdown_inner ul.anchor_nav,
+.menu-right .dropdown2 .dropdown_inner ul.anchor_nav
+{
+    display: flex;
+    flex-direction: column;
+}
+.menu-right .dropdown:hover .dropdown_inner,
+.menu-right .dropdown2:hover .dropdown_inner
+{
+    display: block;
+}
+.mobile_in .quick-top-btn .dropdown2
+{
+    display: block;
+}
+.mobile_in .quick-top-btn ul {
+    display: flex;
+    gap: 10px
+}
+.mobile_in .quick-top-btn li {
+    list-style: none;
+}
+.mobile_in .quick-top-btn li a i {
+    color: #000;
+    font-size: 30px;
+}
+.mobile_in .my_trigger {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mobile_in .quick-top-btn .dropdown2 .container {
+    right: 0;
+}
+.arlo_tm_mobile_menu .dropdown2 .dropdown_inner ul li a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 4px 0px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
