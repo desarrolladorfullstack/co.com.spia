@@ -1,31 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2019 - 2021 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01) ARLO BASE
-02) ARLO TOPBAR
-03) ARLO MOBILE MENU
-04) ARLO HERO
-05) ARLO ABOUT
-06) ARLO SERVICES
-07) ARLO PORTFOLIO
-08) ARLO COUNTER
-09) ARLO NEWS
-10) ARLO CONTACT
-11) ARLO COPYRIGHT
-12) ARLO CURSOR
-13) ARLO RIPPLE EFFECT
-14) ARLO GLITCH EFFECT
-15) ARLO PARTICLE EFFECT
-16) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
-
-
-/*---------------------------------------------------*/
-/*	01) ARLO BASE
-/*---------------------------------------------------*/
 
 html {
 	overflow-x: hidden;
@@ -173,9 +146,6 @@ h6 { font-size: 16px; }
 .arlo_tm_preloader.loaded:before, 
 .arlo_tm_preloader.loaded:after{height: 0%;}
 
-/*---------------------------------------------------*/
-/*	02) ARLO TOPBAR
-/*---------------------------------------------------*/
 
 .arlo_tm_topbar{
 	position: fixed;
@@ -232,9 +202,6 @@ h6 { font-size: 16px; }
 .arlo_tm_topbar .menu ul li.current a{color: #e65f78;}
 .arlo_tm_topbar .menu ul li a:hover{color: #e65f78;}
 
-/*---------------------------------------------------*/
-/*	03) ARLO MOBILE MENU
-/*---------------------------------------------------*/
 
 .arlo_tm_mobile_menu{
 	width: 100%;
@@ -392,9 +359,6 @@ h6 { font-size: 16px; }
 	font-weight: 500;
 }
 
-/*---------------------------------------------------*/
-/*	04) ARLO HERO
-/*---------------------------------------------------*/
 
 .arlo_tm_hero{
 	width: 100%;
@@ -526,9 +490,6 @@ h6 { font-size: 16px; }
 	font-size: 30px;
 }
 
-/*---------------------------------------------------*/
-/*	05) ARLO ABOUT
-/*---------------------------------------------------*/
 
 .arlo_tm_about{
 	width: 100%;
@@ -708,10 +669,6 @@ h6 { font-size: 16px; }
 }
 .arlo_tm_button a:hover:before{width: 150%;}
 
-/*---------------------------------------------------*/
-/*	06) ARLO SERVICES
-/*---------------------------------------------------*/
-
 .arlo_tm_services{
 	width: 100%;
 	height: auto;
@@ -813,10 +770,6 @@ h6 { font-size: 16px; }
 	left:0;
 	right:auto;
 }
-
-/*---------------------------------------------------*/
-/*	07) ARLO PORTFOLIO
-/*---------------------------------------------------*/
 
 .arlo_tm_portfolio{
 	width: 100%;
@@ -942,9 +895,6 @@ h6 { font-size: 16px; }
 }
 .entry{position: relative;}
 
-/*---------------------------------------------------*/
-/*	08) ARLO COUNTER
-/*---------------------------------------------------*/
 
 .arlo_tm_counter_section{
 	width: 100%;
@@ -963,7 +913,7 @@ h6 { font-size: 16px; }
 	right: 0px;  
     background-image: url(..//img/patterns/ravenna.png);
     background-repeat: repeat;
-    opacity: .4; /**  If you choose lighter pattern image as background please Decrease opacity  **/
+    opacity: .4;
     z-index: 2;
 }
 .arlo_tm_counter_section:after{
@@ -1013,9 +963,6 @@ h6 { font-size: 16px; }
 	color: #fff;
 }
 
-/*---------------------------------------------------*/
-/*	09) ARLO NEWS
-/*---------------------------------------------------*/
 
 .arlo_tm_news{
 	width: 100%;
@@ -1345,9 +1292,6 @@ body.modal{
 	z-index: 4;
 }
 
-/*---------------------------------------------------*/
-/*	10) ARLO CONTACT
-/*---------------------------------------------------*/
 
 .arlo_tm_contact{
 	width: 100%;
@@ -1447,9 +1391,6 @@ body.modal{
   width: 100%;
 }
 
-/*---------------------------------------------------*/
-/*	11) ARLO COPYRIGHT
-/*---------------------------------------------------*/
 
 .arlo_tm_copyright{
 	width: 100%;
@@ -1489,9 +1430,6 @@ body.modal{
 	height: 18px;
 }
 
-/*---------------------------------------------------*/
-/*	12) ARLO CURSOR
-/*---------------------------------------------------*/
 
 .mouse-cursor{
   position: fixed;
@@ -1545,9 +1483,6 @@ body.modal{
 	z-index: -1111;
 }
 
-/*---------------------------------------------------*/
-/*	13) ARLO RIPPLE EFFECT
-/*---------------------------------------------------*/
 
 .arlo_tm_hero .ripple{
 	width: 100%;
@@ -1569,9 +1504,6 @@ body.modal{
 	z-index: 1;
 }
 
-/*---------------------------------------------------*/
-/*	14) ARLO GLITCH EFFECT
-/*---------------------------------------------------*/
 
 .arlo_tm_hero .glitch_wrap{
 	position: relative;
@@ -1604,9 +1536,6 @@ body.modal{
 	background-color: rgba(0,0,0,.6);
 }
 
-/*---------------------------------------------------*/
-/*	15) ARLO PARTICLE EFFECT
-/*---------------------------------------------------*/
 
 .arlo_tm_hero .particle_wrapper{
 	position: relative;
@@ -1642,9 +1571,7 @@ body.modal{
 }
 .arlo_tm_hero.polygon{clip-path:polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);}
 
-/*---------------------------------------------------*/
-/*	ARLO SIDEBAR DEMO
-/*---------------------------------------------------*/
+
 
 .arlo_tm_leftpart{
 	width: 400px;
@@ -1777,9 +1704,6 @@ body.modal{
 	        transition: all .3s ease;
 }
 
-/*---------------------------------------------------*/
-/*  ARLO SETTINGS
-/*---------------------------------------------------*/
 
 .arlo_tm_settings{
 	position: fixed;
@@ -2027,9 +1951,6 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	opacity: 1;
 }
 
-/*---------------------------------------------------*/
-/*	16) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
-/*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
 	.arlo_tm_leftpart{width: 350px;}
