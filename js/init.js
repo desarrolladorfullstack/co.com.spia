@@ -624,6 +624,7 @@ $(".glitch").mgGlitch({
 function arlo_tm_videoplayer(){
 	"use strict";
 	$(".youtube-bg").mb_YTPlayer();
+	document.body.querySelector('video').play().then(val=>console.log(val))
 }
 
 // -----------------------------------------------------
