@@ -624,18 +624,6 @@ $(".glitch").mgGlitch({
 function arlo_tm_videoplayer(){
 	"use strict";
 	$(".youtube-bg").mb_YTPlayer();
-	let video = document.body.querySelector('video');
-	if ( video !=  null) {
-		video.click();
-		video.play().then(val=>{
-			/*document.body.querySelector('.arlo_tm_hero .background').style.display="none";*/
-			console.log("video played", val);
-			setTimeout(()=>{
-				/*document.body.querySelector('.arlo_tm_hero .background').style.display="block";*/
-				arlo_tm_videoplayer();
-			}, 10000)
-		})
-	}
 }
 
 // -----------------------------------------------------
