@@ -70,3 +70,27 @@
     font-family: "Poppins";
     font-weight: 500;
 }
+.service_inner li {
+    text-align: center;
+    padding: 50px 25px 0 !important;
+    margin: 0 0 10px 0 !important;
+}
+.service_inner li .inner {
+    padding: 60px 20px !important;
+    border: thin solid #0099cc38;
+}
+ul.contact-tel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contact-tel li {
+    list-style: none;
+}
+.contact-tel li a {
+    color: #0099cc;
+    text-decoration: none;
+    background: #0099cc26;
+    padding: 4px;
+    border-radius: 10px;
+}
