@@ -28,6 +28,11 @@
     background: #fff;
     padding: 5px;
 }
+.dark .menu-right .dropdown .dropdown_inner,
+.dark .menu-right .dropdown2 .dropdown_inner
+{
+    background: #111;
+}
 .menu-right .dropdown .dropdown_inner ul.anchor_nav,
 .menu-right .dropdown2 .dropdown_inner ul.anchor_nav
 {
