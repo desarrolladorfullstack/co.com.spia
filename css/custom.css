@@ -99,3 +99,9 @@ ul.contact-tel {
     padding: 4px;
     border-radius: 10px;
 }
+body.dark .arlo_tm_services .service_inner ul li .inner {
+    background-color: #fff;
+}
+body.dark .arlo_tm_services .service_inner ul li .inner h3 {
+    color: #000;
+}
